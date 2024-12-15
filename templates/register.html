@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container">
+    <div class="row no-gutters">
+        <div class="col-md-6">
+            <div class="card rounded" style="height: 500px;border-radius: 10px"> <!-- Adjust the height as needed -->
+                <div class="card-body" style="border-radius: 10px">
+                    <form name="frmRegister" action="/register" method="post" novalidate>
+                        <fieldset class="form-group">
+                            <legend>{{ title }}</legend>
+                            {{ form.hidden_tag() }}
+                            
+                            <p>
+                                {{ form.email.label }}<br>
+                                {{ form.email(class_='form-control') }}
+                                {% for error in form.email.errors %}
+                                <span class="error-message">{{ error }}</span>
+                                {% endfor %}
+                            </p>
+                            <p>
+                                {{ form.password.label }}<br>
+                                {{ form.password(class_='form-control') }}
+                                {% for error in form.password.errors %}
+                                <span class="error-message">{{ error }}</span>
+                                {% endfor %}
+                            </p>
+                            <p>
+                                {{ form.cfm_password.label }}<br>
+                                {{ form.cfm_password(class_='form-control') }}
+                                {% for error in form.cfm_password.errors %}
+                                <span class="error-message">{{ error }}</span>
+                                {% endfor %}
+                            </p>
+                            <p>
+                                {{ form.submit(class_='form-control btn btn-primary') }}
+                            </p>
+                            <p class="message">Already have an account? <a href="/login">Log in here</a></p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card rounded d-flex align-items-center" style="height: 100%;border-radius: 10px ">
+                <div class="card-body" style="background-color:#1560BD; text-align: center;border-radius: 10px;">
+                    <img src="{{ url_for('static', filename='images/image.png')}}" style="max-width: 100%; max-height: 70vh; object-fit: contain; margin-top: 100px;">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+{% endblock %}

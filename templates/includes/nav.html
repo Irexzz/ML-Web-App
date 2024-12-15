@@ -1,0 +1,20 @@
+<header>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item">
+            <li><a href="/home" class="nav-link
+    {% if index %}active{% endif %}">Home</a></li>
+            {% if current_user.is_authenticated %}
+            <li><a href="/history" class="nav-link
+        {% if index %}active{% endif %}">History</a></li>
+            <li class="ml-auto"> <a href="/logout" class="nav-link
+        {% if index %}active{% endif %}">Logout</a></li>
+            {% else %}
+            <li class="ml-auto"> <a href="/register" class="nav-link
+        {% if index %}active{% endif %}">Register</a></li>
+            <li class=> <a href="/login" class="nav-link
+        {% if index %}active{% endif %}">Login</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</header>

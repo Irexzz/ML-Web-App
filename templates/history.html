@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<table class="table table-striped"style="background-color:white">
+<thead>
+<tr>
+<th>Tax</th>
+<th>Engine Size</th>
+<th>Model</th>
+<th>Mileage</th>
+<th>Year</th>
+<th>mpg</th>
+<th>Prediction</th>
+<th>Timestamp</th>
+<th>Delete</th>
+</tr>
+</thead>
+<tbody>
+{% for entry in entries %}
+<tr>
+<td>{{ entry.tax}}</td>
+<td>{{ entry.engine_size }}</td>
+<td>{{ entry.model}}</td>
+<td>{{ entry.mileage }}</td>
+<td>{{ entry.year }}</td>
+<td>{{ entry.mpg }}</td>
+<td>{{ entry.prediction }}</td>
+<td>{{ entry.predicted_on.strftime("%d %b %y %H:%M")}}</td>
+<td>
+    <form name="frmRemoveEntry" action="/remove" method="post"
+    novalidate>
+    <input type="hidden" name="id" value="{{entry.id}}">
+    <input type="submit" class="form-control btn-danger"
+    value="Remove">
+    </form>
+    </td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+{% endblock content %}

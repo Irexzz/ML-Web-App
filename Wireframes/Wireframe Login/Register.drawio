@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-12-03T21:55:04.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NqHp69BgO5NMMNwjfLDA" version="22.1.5" type="gitlab">
+  <diagram name="Page-1" id="03018318-947c-dd8e-b7a3-06fadd420f32">
+    <mxGraphModel dx="1444" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-1" value="Home&lt;br&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-2" value="History&lt;br&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-3" value="Logout&lt;br&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="1020" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-4" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-5" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="770" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-6" value="Footer" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="510" y="800" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="490" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="490" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-9" value="Image of car here" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="740" y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-11" value="Login" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=18;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-16" value="Email" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-17" value="Password" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-18" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-19" value="Login" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-23" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-24" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k5RzlaSVBAqyJ3GaugmM-30" value="Not registered? Create an account here" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
+          <mxGeometry x="100" y="570" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
